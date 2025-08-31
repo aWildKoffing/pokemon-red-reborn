@@ -62,9 +62,10 @@ NameRatersHouseNameRaterText:
 	pop af
 	jr c, .did_not_rename
 	call GetPartyMonName2
-	call NameRatersHouseCheckMonOTScript
-	ld hl, .ATrulyImpeccableNameText
-	jr c, .done
+	; allow traded mons to be renamed
+	; call NameRatersHouseCheckMonOTScript
+	; ld hl, .ATrulyImpeccableNameText
+	; jr c, .done
 	ld hl, .GiveItANiceNameText
 	call NameRatersHouseYesNoScript
 	jr nz, .did_not_rename

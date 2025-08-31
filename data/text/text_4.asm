@@ -175,10 +175,15 @@ _NeedYourPokemonText::
 	line "your #MON."
 	done
 
+_ChanseyYouKnowText::
+	text "Hello. CHANSEY"
+	line "you know what"
+	para "to do!"
+	done
+
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Your #MON are"
+	line "fighting fit!"
 	prompt
 
 _PokemonCenterFarewellText::
