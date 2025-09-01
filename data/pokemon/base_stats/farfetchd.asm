@@ -1,6 +1,8 @@
 	db DEX_FARFETCHD ; pokedex id
 
-	db  52,  65,  55,  60,  58
+; before state total: 290 :[
+; after stat total: 340
+	db  65,  80,  60,  75,  60
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
