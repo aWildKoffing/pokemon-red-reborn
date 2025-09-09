@@ -83,12 +83,12 @@ YoungsterData:
 BugCatcherData:
 ; Viridian Forest
 	db 6, WEEDLE, CATERPIE, 0
-	db 7, WEEDLE, KAKUNA, WEEDLE, 0
-	db 9, WEEDLE, 0
+	db 7, WEEDLE, KAKUNA, PARAS, 0
+	db 7, PINSIR, 0
 ; Route 3
-	db 10, CATERPIE, WEEDLE, CATERPIE, 0
-	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
-	db 11, CATERPIE, METAPOD, 0
+	db 10, METAPOD, KAKUNA, 0
+	db  9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
+	db 11, PARAS, METAPOD, 0
 ; Mt. Moon 1F
 	db 11, WEEDLE, KAKUNA, 0
 	db 10, CATERPIE, METAPOD, CATERPIE, 0
@@ -105,7 +105,7 @@ BugCatcherData:
 
 LassData:
 ; Route 3
-	db 9, PIDGEY, PIDGEY, 0
+	db 9, PIDGEY, PIKACHU, 0
 	db 10, RATTATA, NIDORAN_M, 0
 	db 14, JIGGLYPUFF, 0
 ; Route 4
@@ -120,7 +120,7 @@ LassData:
 	db 16, NIDORAN_M, NIDORAN_F, 0
 	db 15, PIDGEY, PIKACHU, TANGELA, 0
 ; SS Anne 1F Rooms
-	db 18, GOLDEEN, EEVEE, POMYTA, 0
+	db 18, GOLDEEN, EEVEE, PONYTA, 0
 ; SS Anne 2F Rooms
 	db 18, RATICATE, PIKACHU, 0
 ; Route 8
