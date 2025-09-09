@@ -16,7 +16,7 @@ DisplayPokemonCenterDialogue_::
 	; jr nz, .declinedHealing ; if the player chose No
 	call SetLastBlackoutMap
 	call LoadScreenTilesFromBuffer1 ; restore screen
-	ld hl, ChanseyYouKnowText
+	ld hl, NeedYourPokemonText
 	call PrintText
 	ld a, $18
 	ld [wSprite01StateData1ImageIndex], a ; make the nurse turn to face the machine
@@ -56,10 +56,6 @@ ShallWeHealYourPokemonText:
 
 NeedYourPokemonText:
 	text_far _NeedYourPokemonText
-	text_end
-
-ChanseyYouKnowText:
-	text_far _ChanseyYouKnowText
 	text_end
 
 PokemonFightingFitText:

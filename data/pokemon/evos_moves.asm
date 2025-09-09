@@ -273,8 +273,8 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 21, THUNDERSHOCK
+	db 15, THUNDERSHOCK
+	db 20, SONICBOOM
 	db 25, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
@@ -579,12 +579,13 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, ABSORB
-	db 22, POISONPOWDER
-	db 28, VINE_WHIP
-	db 32, STUN_SPORE
-	db 36, SLEEP_POWDER
-	db 39, SLAM
+    db  7, STUN_SPORE
+	db 13, ABSORB
+	db 19, POISONPOWDER
+	db 22, VINE_WHIP
+	db 30, SLEEP_POWDER
+	db 35, MEGA_DRAIN
+	db 40, SLAM
 	db 45, GROWTH
 	db 50, SOLARBEAM
 	db 0
@@ -777,11 +778,13 @@ PsyduckEvosMoves:
 	db EVOLVE_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
-	db 20, WATER_GUN
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 36, CONFUSION
-	db 43, FURY_SWIPES
+    db  9, BUBBLE
+	db 12, TAIL_WHIP
+	db 16, WATER_GUN
+	db 21, DISABLE
+	db 28, CONFUSION
+	db 36, FURY_SWIPES
+	db 43, AMNESIA
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -998,12 +1001,13 @@ DoduoEvosMoves:
 	db EVOLVE_LEVEL, 31, DODRIO
 	db 0
 ; Learnset
-	db 20, GROWL
-	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
-	db 36, RAGE
-	db 40, TRI_ATTACK
-	db 44, AGILITY
+	db  7, GROWL
+	db 13, FURY_ATTACK
+	db 21, TRI_ATTACK
+	db 25, RAGE
+	db 33, DRILL_PECK
+	db 37, SCREECH
+	db 45, AGILITY
 	db 0
 
 PoliwagEvosMoves:
@@ -1011,8 +1015,8 @@ PoliwagEvosMoves:
 	db EVOLVE_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 13, WATER_GUN
+	db 19, HYPNOSIS
 	db 25, DOUBLESLAP
 	db 31, BODY_SLAM
 	db 38, AMNESIA
@@ -1111,9 +1115,11 @@ VulpixEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
-	db 16, QUICK_ATTACK
-	db 21, ROAR
-	db 28, CONFUSE_RAY
+    db  7, GROWL
+	db  9, EMBER
+	db 14, QUICK_ATTACK
+	db 20, ROAR
+	db 26, CONFUSE_RAY
 	db 35, FLAMETHROWER
 	db 42, FIRE_SPIN
 	db 0
@@ -1122,6 +1128,13 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db  7, GROWL
+	db  9, EMBER
+	db 14, QUICK_ATTACK
+	db 20, ROAR
+	db 26, CONFUSE_RAY
+	db 35, FLAMETHROWER
+	db 42, FIRE_SPIN
 	db 0
 
 PikachuEvosMoves:
@@ -1304,24 +1317,23 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db 0
-; Learnset
-	db 27, QUICK_ATTACK
-	db 31, TAIL_WHIP
-	db 37, BITE
-	db 45, TAKE_DOWN
+; Learnset	
+    db 16, GROWL
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 42, TAKE_DOWN
 	db 0
 
 FlareonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, EMBER
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, LEER
-	db 44, FIRE_SPIN
-	db 48, RAGE
+	db 16, EMBER
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, FIRE_SPIN
+	db 40, SMOG
+	db 44, LEER
 	db 54, FLAMETHROWER
 	db 0
 
@@ -1329,13 +1341,12 @@ JolteonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, THUNDERSHOCK
-	db 37, TAIL_WHIP
+	db 16, THUNDERSHOCK
+	db 23, QUICK_ATTACK
+	db 30, DOUBLE_KICK
+	db 36, PIN_MISSILE
 	db 40, THUNDER_WAVE
-	db 42, DOUBLE_KICK
 	db 44, AGILITY
-	db 48, PIN_MISSILE
 	db 54, THUNDER
 	db 0
 
@@ -1343,12 +1354,12 @@ VaporeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, WATER_GUN
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, ACID_ARMOR
-	db 44, HAZE
+	db 16, WATER_GUN
+	db 23, QUICK_ATTACK
+	db 30, BITE
+	db 36, AURORA_BEAM
+	db 40, HAZE
+	db 44, ACID_ARMOR
 	db 48, MIST
 	db 54, HYDRO_PUMP
 	db 0
@@ -1406,8 +1417,8 @@ PoliwhirlEvosMoves:
 	db EVOLVE_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 13, WATER_GUN
+	db 19, HYPNOSIS
 	db 26, DOUBLESLAP
 	db 33, BODY_SLAM
 	db 41, AMNESIA
@@ -1418,8 +1429,13 @@ PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 13, WATER_GUN
+	db 19, HYPNOSIS
+	db 26, DOUBLESLAP
+	db 33, BODY_SLAM
+	db 41, AMNESIA
+	db 49, HYDRO_PUMP
+	db 55, DIZZY_PUNCH
 	db 0
 
 WeedleEvosMoves:
@@ -1458,11 +1474,12 @@ DodrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, GROWL
-	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
-	db 39, RAGE
-	db 45, TRI_ATTACK
+    db  7, GROWL
+	db 13, FURY_ATTACK
+	db 21, TRI_ATTACK
+	db 25, RAGE
+	db 39, DRILL_PECK
+	db 45, SCREECH
 	db 51, AGILITY
 	db 0
 
@@ -1572,11 +1589,13 @@ GolduckEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, WATER_GUN
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 39, CONFUSION
-	db 48, FURY_SWIPES
+	db  9, BUBBLE
+	db 12, TAIL_WHIP
+	db 16, WATER_GUN
+	db 21, DISABLE
+	db 28, CONFUSION
+	db 37, FURY_SWIPES
+	db 48, AMNESIA
 	db 59, HYDRO_PUMP
 	db 62, PSYCHIC_M
 	db 0
@@ -1700,8 +1719,8 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 21, THUNDERSHOCK
+	db 15, THUNDERSHOCK
+	db 20, SONICBOOM
 	db 25, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 40, SWIFT
@@ -1933,11 +1952,13 @@ PonytaEvosMoves:
 	db EVOLVE_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 27, DOUBLE_KICK
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 43, TAKE_DOWN
+    db  7, GROWL
+	db 10, EMBER
+	db 19, DOUBLE_KICK
+	db 25, STOMP
+	db 35, FIRE_SPIN
+	db 39, TAKE_DOWN
+	db 43, FIRE_BLAST
 	db 48, AGILITY
 	db 0
 
@@ -1945,12 +1966,13 @@ RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, DOUBLE_KICK
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 47, TAKE_DOWN
-	db 55, AGILITY
+	db 10, EMBER
+	db 19, DOUBLE_KICK
+	db 25, STOMP
+	db 35, FIRE_SPIN
+	db 39, TAKE_DOWN
+	db 43, FIRE_BLAST
+	db 48, AGILITY
 	db 0
 
 RattataEvosMoves:

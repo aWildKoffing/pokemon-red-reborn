@@ -1,7 +1,7 @@
 Route5WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 13, ODDISH
-	db 13, BELLSPROUT
+	db 14, ODDISH
+	db 14, BELLSPROUT
 	db 15, PIDGEY
 	db 12, MEOWTH
 	db 12, MANKEY

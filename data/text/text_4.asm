@@ -171,20 +171,14 @@ _ShallWeHealYourPokemonText::
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
+	text "I'll take your"
 	line "your #MON."
-	done
-
-_ChanseyYouKnowText::
-	text "Hello. CHANSEY"
-	line "you know what"
-	para "to do!"
 	done
 
 _PokemonFightingFitText::
 	text "Your #MON are"
 	line "fighting fit!"
-	prompt
+	done
 
 _PokemonCenterFarewellText::
 	text "We hope to see"
