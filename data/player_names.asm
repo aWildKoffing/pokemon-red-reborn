@@ -3,14 +3,14 @@ DefaultNamesPlayer:
 	db   "NEW NAME"
 	next "RED"
 	next "ASH"
-	next "JACK"
+	next "DICKY"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "JOHN"
+	next "RICKY"
 	db   "@"
 ENDC
 
@@ -19,13 +19,13 @@ DefaultNamesPlayer:
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "JOHN"
+	next "RICKY"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "RED"
 	next "ASH"
-	next "JACK"
+	next "DICKY"
 	db   "@"
 ENDC

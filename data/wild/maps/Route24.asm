@@ -1,8 +1,8 @@
 Route24WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  9, METAPOD
-	db  8, WEEDLE
-	db 13, PIDGEY
+	db 12, PIDGEY
+	db 13, KAKUNA
+	db 11, POLIWAG
 	db 12, ODDISH
 	db 12, BELLSPROUT
 	db 10, ABRA
