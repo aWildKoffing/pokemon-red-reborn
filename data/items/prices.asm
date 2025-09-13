@@ -2,8 +2,8 @@ ItemPrices::
 	table_width 3
 	bcd3 0     ; MASTER_BALL
 	bcd3 1200  ; ULTRA_BALL
-	bcd3 600   ; GREAT_BALL
-	bcd3 200   ; POKE_BALL
+	bcd3 500   ; GREAT_BALL
+	bcd3 100   ; POKE_BALL
 	bcd3 0     ; TOWN_MAP
 	bcd3 0     ; BICYCLE
 	bcd3 0     ; SURFBOARD
@@ -17,9 +17,9 @@ ItemPrices::
 	bcd3 200   ; PARLYZ_HEAL
 	bcd3 3000  ; FULL_RESTORE
 	bcd3 2500  ; MAX_POTION
-	bcd3 1500  ; HYPER_POTION
-	bcd3 700   ; SUPER_POTION
-	bcd3 300   ; POTION
+	bcd3 1400  ; HYPER_POTION
+	bcd3 650   ; SUPER_POTION
+	bcd3 250   ; POTION
 	bcd3 0     ; BOULDERBADGE
 	bcd3 0     ; CASCADEBADGE
 	bcd3 0     ; THUNDERBADGE
@@ -58,16 +58,16 @@ ItemPrices::
 	bcd3 500   ; SUPER_REPEL
 	bcd3 700   ; MAX_REPEL
 	bcd3 650   ; DIRE_HIT
-	bcd3 10    ; COIN
+	bcd3 100   ; COIN
 	bcd3 200   ; FRESH_WATER
 	bcd3 300   ; SODA_POP
 	bcd3 350   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
 	bcd3 0     ; GOLD_TEETH
-	bcd3 500   ; X_ATTACK
+	bcd3 550   ; X_ATTACK
 	bcd3 550   ; X_DEFEND
-	bcd3 350   ; X_SPEED
-	bcd3 350   ; X_SPECIAL
+	bcd3 550   ; X_SPEED
+	bcd3 550   ; X_SPECIAL
 	bcd3 0     ; COIN_CASE
 	bcd3 0     ; OAKS_PARCEL
 	bcd3 0     ; ITEMFINDER
