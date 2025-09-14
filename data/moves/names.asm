@@ -1,3 +1,6 @@
+;;
+; NOTE - move name maximum 12 chars
+;;
 MoveNames::
 	list_start
 	li "POUND"
@@ -164,5 +167,6 @@ MoveNames::
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
+	li "CROSS CHOP"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

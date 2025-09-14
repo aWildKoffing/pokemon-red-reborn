@@ -170,7 +170,8 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
+	const CROSS_CHOP   ; a5
+	const STRUGGLE     ; a6 ; struggle must always be last
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff

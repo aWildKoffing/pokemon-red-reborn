@@ -326,12 +326,14 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, REFLECT
+	db  8, REFLECT
+	db 13, LEECH_SEED
+	db 19, CONFUSION
+	db 25, STUN_SPORE
 	db 28, STOMP
-	db 32, STUN_SPORE
-	db 37, POISONPOWDER
+	db 30, POISONPOWDER
+	db 35, SLEEP_POWDER
 	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
 	db 0
 
 LickitungEvosMoves:
@@ -352,12 +354,13 @@ ExeggcuteEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, REFLECT
-	db 28, LEECH_SEED
-	db 32, STUN_SPORE
-	db 37, POISONPOWDER
+	db  8, REFLECT
+	db 13, LEECH_SEED
+	db 19, CONFUSION
+	db 25, STUN_SPORE
+	db 30, POISONPOWDER
+	db 35, SLEEP_POWDER
 	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
 	db 0
 
 GrimerEvosMoves:
@@ -415,11 +418,12 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 25, LEER
-	db 31, FOCUS_ENERGY
+    db  9, BONE_CLUB
+	db 15, LEER
+	db 21, FOCUS_ENERGY
+	db 29, RAGE
 	db 38, THRASH
 	db 43, BONEMERANG
-	db 46, RAGE
 	db 0
 
 RhyhornEvosMoves:
@@ -708,10 +712,10 @@ MachokeEvosMoves:
 	db EVOLVE_LEVEL, 42, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
+	db 15, KARATE_CHOP
+	db 24, FOCUS_ENERGY
+	db 36, SEISMIC_TOSS
+	db 44, CROSS_CHOP
 	db 52, SUBMISSION
 	db 0
 
@@ -865,11 +869,12 @@ KoffingEvosMoves:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 37, SMOKESCREEN
-	db 40, SELFDESTRUCT
-	db 45, HAZE
-	db 48, EXPLOSION
+    db 12, POISON_GAS
+	db 17, SELFDESTRUCT
+	db 22, SMOKESCREEN
+	db 29, SLUDGE
+	db 33, HAZE
+	db 41, EXPLOSION
 	db 0
 
 MissingNo38EvosMoves:
@@ -883,11 +888,14 @@ MankeyEvosMoves:
 	db EVOLVE_LEVEL, 28, PRIMEAPE
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
+    db 10, LOW_KICK
+	db 16, KARATE_CHOP
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
+	db 45, SCREECH
+	db 51, CROSS_CHOP
 	db 0
 
 SeelEvosMoves:
@@ -1369,10 +1377,10 @@ MachopEvosMoves:
 	db EVOLVE_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
+	db 15, KARATE_CHOP
+	db 24, FOCUS_ENERGY
+	db 32, SEISMIC_TOSS
+	db 39, CROSS_CHOP
 	db 46, SUBMISSION
 	db 0
 
@@ -1487,11 +1495,14 @@ PrimeapeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
+    db 10, LOW_KICK
+	db 16, KARATE_CHOP
 	db 21, FURY_SWIPES
 	db 27, FOCUS_ENERGY
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
+	db 51, SCREECH
+	db 57, CROSS_CHOP
 	db 0
 
 DugtrioEvosMoves:
@@ -1572,11 +1583,11 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 15, KARATE_CHOP
+	db 24, FOCUS_ENERGY
+	db 36, SEISMIC_TOSS
+	db 47, CROSS_CHOP
+	db 55, SUBMISSION
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1745,11 +1756,12 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
-	db 49, HAZE
-	db 53, EXPLOSION
+	db 12, POISON_GAS
+	db 17, SELFDESTRUCT
+	db 22, SMOKESCREEN
+	db 29, SLUDGE
+	db 33, HAZE
+	db 49, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -1767,11 +1779,12 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, LEER
-	db 33, FOCUS_ENERGY
+	db  9, BONE_CLUB
+	db 15, LEER
+	db 21, FOCUS_ENERGY
+	db 33, RAGE
 	db 41, THRASH
 	db 48, BONEMERANG
-	db 55, RAGE
 	db 0
 
 MissingNo92EvosMoves:

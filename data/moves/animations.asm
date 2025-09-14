@@ -164,6 +164,7 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw CrossChopAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -239,6 +240,11 @@ StruggleAnim:
 
 KarateChopAnim:
 	battle_anim KARATE_CHOP, SUBANIM_0_STAR_DESCENDING, 0, 8
+	db -1 ; end
+
+CrossChopAnim:
+	battle_anim KARATE_CHOP, SUBANIM_0_STAR_DESCENDING, 0, 8
+	battle_anim KARATE_CHOP, SUBANIM_0_STAR_DESCENDING, 1, 8
 	db -1 ; end
 
 DoubleSlapAnim:
