@@ -2274,8 +2274,7 @@ UseBagItem:
 	cp BATTLE_TYPE_SAFARI
 	jr z, .returnAfterUsingItem_NoCapture
 ; not a safari battle
-	; experimental change to earn xp after capture
-	callfar GainExperience
+
 	call LoadScreenTilesFromBuffer1
 	call DrawHUDsAndHPBars
 	call Delay3
